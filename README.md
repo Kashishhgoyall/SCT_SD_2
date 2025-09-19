@@ -61,9 +61,9 @@ Enter your guesses in the text field, get instant feedback, and see how many att
 
 ![GUI Screenshot](screenshots/GuiFirstLook.png)
 
-![GUI Screenshot](screenshots/GuiShowingCorrectAttempts.png)
-
 ![GUI Screenshot](screenshots/GuiShowingCorrectGuess.png)
+
+![GUI Screenshot](screenshots/GuiShowingCorrectAttempts.png)
 
 ---
 

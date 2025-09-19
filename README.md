@@ -1,68 +1,91 @@
-🎯 GuessTheNumber – Random Number Guessing Game (CLI & GUI)
-Task 2 project for the SkillCraft Technology Software Development Internship.
+# 🎯 GuessTheNumber – Random Number Guessing Game (Console + GUI)
 
-📝 Project Description
-GuessTheNumber is a classic random number guessing game implemented in Java with:
+This project is **Task 02** for the **SkillCraft Technology Software Development Internship (Software Development Track)**.
+It’s a fun Java-based guessing game where the program generates a random number, and the user tries to guess it — either via **console** or a **Swing GUI interface**.
 
-A console (CLI) version for direct terminal use.
+---
 
-An interactive GUI version built using Java Swing.
+## 📝 Description
 
-The game generates a random number between 1 and 100. The user must guess the number, with hints ("Too High" / "Too Low") and input validation provided. Both versions track the number of attempts and validate user input.
+The **GuessTheNumber** game challenges the player to guess a random number between **1 and 100**.
+It provides two modes:
 
-🎯 Features
-🔢 Generates a random number between 1 and 100
+* **Console Version** → Classic terminal-based interaction
+* **GUI Version** → Swing-powered interactive window with user-friendly design
 
-🖥️ Console version (text-based): User guesses by entering input until correct
+---
 
-🎨 GUI version (Java Swing): User interacts with a graphical window
+## ✨ Features
 
-📊 Attempts counter for each session
+* 🔢 Generates random numbers between **1–100**
+* 📊 Tracks number of attempts
+* ⚠️ Input validation with clear error messages
+* 🖥️ **Console Mode** → Simple and quick interaction
+* 🎨 **GUI Mode** → Interactive, event-driven interface
 
-⚠️ Input validation (handles non-numeric and out-of-range guesses with messages)
+---
 
-💡 Instant feedback: "Too High" / "Too Low" hints
+## 🚀 How to Run
 
-🚀 How to Run
-Console Version
-text
+### ▶️ Console Version
+
+```bash
 javac GuessTheNumberConsole.java
 java GuessTheNumberConsole
-Follow the prompts to guess numbers until you find the correct one.
+```
 
-The program reports if your guess is too high or too low and counts your attempts.
+You will be prompted to guess numbers until you find the correct one.
+The program will tell you if your guess is **Too High** or **Too Low** and track your attempts.
 
-GUI Version
-text
+---
+
+### 🖼️ GUI Version
+
+```bash
 javac GuessTheNumberGUI.java
 java GuessTheNumberGUI
-Launches a window where you can enter guesses interactively.
+```
 
-Input errors and attempt tracking handled within the interface.
+An interactive Swing window will open.
+Enter your guesses in the text field, get instant feedback, and see how many attempts it takes you.
 
-📸 Screenshots
-Console:
+---
+
+## 📸 Screenshots
+
+### Console Output
 
 ![Console Screenshot](screenshots/Console.png)
 
-GUI: 
+### GUI Window
 
 ![GUI Screenshot](screenshots/GuiFirstLook.png)
+
 ![GUI Screenshot](screenshots/GuiShowingCorrectAttempts.png)
+
 ![GUI Screenshot](screenshots/GuiShowingCorrectGuess.png)
 
-📂 Project Structure
-text
+---
+
+## 📂 Project Structure
+
+```
 SCT_SD_2/
-├── GuessTheNumberConsole.java      # Console version
-├── GuessTheNumberGUI.java   # GUI version
-├── README.md                # Project documentation (this file)
-└── screenshots/                  # Output screenshots
-🌱 Skills Demonstrated
-Java programming basics: random numbers, loops, conditions
+│-- GuessTheNumberConsole.java   # Console version
+│-- GuessTheNumberGUI.java       # GUI version                  
+│-- screenshots/                 # Screenshots of outputs
+```
 
-Swing GUI: component design, event-handling, input validation
+---
 
-User-driven application logic and error handling
+## 🌱 Skills Practiced
 
-Using Git & GitHub for version control and documentation
+* ✅ Java programming fundamentals (`Random`, Loops, Conditions)
+* ✅ Swing GUI development & event handling
+* ✅ Input validation & error handling
+* ✅ Designing user-driven interactive applications
+* ✅ Git & GitHub for version control
+
+
+
+
